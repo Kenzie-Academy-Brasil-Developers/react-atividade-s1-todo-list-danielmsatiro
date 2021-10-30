@@ -11,7 +11,7 @@ function Form({ addTodo }) {
           placeholder="Nova Tarefa"
           onChange={(event) => setTodoInput(event.target.value)}
         />
-        <button onClick={() => addTodo(todoInput)}>Enviar</button>
+        <button className="buttons" onClick={() => addTodo(todoInput)}>Enviar</button>
       </form>
     </>
   );
